@@ -5,8 +5,12 @@
     <classes>
       <class name="Dotballtest.dotBallTestClass">
         <methods>
+          <include name="userAbleToSignUpDBApp"/>
+          <include name="userAbleToLogin"/>
           <include name="UserJoinContest"/>
+          <include name="createTeam"/>
           <include name="browserLaunch"/>
+          <include name="profileNameValidation"/>
         </methods>
       </class> <!-- Dotballtest.dotBallTestClass -->
     </classes>
